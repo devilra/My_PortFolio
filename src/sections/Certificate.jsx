@@ -5,7 +5,7 @@ import { certificates } from "../constants/data";
 const Certificate = () => {
   return (
     <section
-      className="scroll-mt-20 pt-5 mb-20 md:mb-0 px-6 md:h-screen h-[100%] snap-start bg-white"
+      className="scroll-mt-20 pt-5 mb-20 lg:mb-0 px-6 lg:h-screen h-[100%] snap-start bg-white"
       id="certificates">
       <motion.div
         className="max-w-5xl mx-auto"
@@ -16,7 +16,7 @@ const Certificate = () => {
         <h2 className="text-3xl font-bold text-blue-600 mb-10 text-center">
           Certificates
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {certificates.map((cert) => (
             <motion.div
               key={cert.id}
