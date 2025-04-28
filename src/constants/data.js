@@ -1,0 +1,111 @@
+export const personalData = {
+    name:'Kali Raja J',
+    role : 'Full Stack Developer',
+    location:'Tirunelveli India',
+    email:'rockraja91338@gmail.com',
+    phone : '+91 9344974912',
+    about : 'I am a passionate full-stack developer with experience in building enterprise-grade applications..'
+}
+
+
+export const certificates = [
+   { id : 1,
+    title : 'Building Responsive Website',
+    issuer:'Nxt Wave Intensive 3.0',
+    url:'https://certificates.ccbp.in/intensive/responsive-website?id=PKKJHTOXLM',
+    year: 2024,
+},
+ { id : 2,
+    title : 'Building Static Website',
+     issuer:'Nxt Wave Intensive 3.0',
+     url:'https://certificates.ccbp.in/intensive/static-website?id=XZBCHHBGGD',
+    year: 2024,
+},
+ { id : 3,
+    title : 'Developer Foundation',
+     issuer:'Nxt Wave Intensive 3.0',
+     url:'comming soon.....',
+    year: 2024,
+},
+ { id : 4,
+    title : 'Javascript Essential',
+     issuer:'Nxt Wave Intensive 3.0',
+    year: 2024,
+},
+ { id : 5,
+    title : 'Building Dynamic Website',
+     issuer:'Nxt Wave Intensive 3.0',
+     url:'https://certificates.ccbp.in/intensive/dynamic-web-application?id=EHHLBZMQYY',
+    year: 2024,
+},
+{ id : 6,
+    title : 'JavaScript Essentials',
+     issuer:'Nxt Wave Intensive 3.0',
+     url:'https://certificates.ccbp.in/intensive/javascript-essentials?id=OPENCKKCIE',
+    year: 2024,
+},
+{ id : 7,
+    title : 'Responsive Web Design using Flexbox',
+     issuer:'Nxt Wave Intensive 3.0',
+     url:'https://certificates.ccbp.in/intensive/flexbox?id=PEWTGBKMFL',
+    year: 2024,
+},
+ { id : 8,
+    title : 'Building NodeJS',
+     issuer:'Nxt Wave Intensive 3.0',
+     url:'https://certificates.ccbp.in/intensive/node-js?id=UKYOWAJHBR',
+    year: 2024,
+},
+ { id : 9,
+    title : 'Building ReactJS',
+    issuer:'Nxt Wave Intensive 3.0',
+    url:'https://certificates.ccbp.in/intensive/react-js?id=FFXXKJTJIC',
+    year: 2024,
+},
+
+]
+
+export const projects = [
+    {
+        id:1,
+        title:'Comment Section',
+        description:'........soon',
+        image:'/comment.png',
+        link : 'https://comment-app-two.vercel.app/'
+    },
+    {
+        id:2,
+        title:'Filter Products',
+        description:'........soon',
+        image:'/ecommerce.png',
+        link : 'https://sort-using-filter.vercel.app/'
+    },
+       {
+        id:3,
+        title:'Digital Clock',
+        description:'........soon',
+        image:['/Digital_Clock.png','/Digital_clock_2.png'],
+        link : 'https://clock-project-ochre.vercel.app/'
+    },
+      {
+        id:4,
+        title:'Toggle Theme',
+        description:'........soon',
+        image:['/toggle_1.png','/toggle_2.png'],
+        link : 'https://toggle-theme-sand.vercel.app/page2'
+    },
+      {
+        id:5,
+        title:'Review Section',
+        description:'........soon',
+        image:'/Review.png',
+        link : 'https://review-app-rho.vercel.app/'
+    },
+     {
+        id:6,
+        title:'App Store',
+        description:'........soon',
+        image:['/App_Store_1.png','/App_Store_2.png','/App_Store_3.png'],
+        link : 'https://filter-products-theta.vercel.app/'
+    },
+]
