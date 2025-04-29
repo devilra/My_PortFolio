@@ -11,7 +11,7 @@ const Contact = () => {
         traclassName="py-20 px-6 bg-white"
         id="contact"
         transition={{ duration: 1 }}
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true }}
         className="  max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-blue-600 mb-8">Contact</h2>
         <p className="text-lg text-gray-700 mb-4">Feel free to reach out!</p>
